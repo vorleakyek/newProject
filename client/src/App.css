@@ -43,3 +43,34 @@
 .read-the-docs {
   color: #888;
 }
+
+.input-box {
+  padding: 2px;
+  margin: 10px;
+  margin-bottom: 5px;
+}
+
+.gray-border {
+  outline: none;
+  border: 1px solid gray;
+}
+
+.red-border {
+  outline: none;
+  border: 1px solid red;
+}
+
+.red-border:focus {
+  border: 2px solid red;
+}
+
+.gray-border:focus {
+  border: 2px solid gray;
+}
+
+/* Remove spinner controls from number input */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  appearance: none;
+  margin: 0;
+}
